@@ -14,7 +14,7 @@ const persons = [
 const names = persons
   .filter((person) => person.gender !== "Female")
   .map((person) => person.name);
-// console.log(names);
+console.log(names);
 
 // 2. Task: Object Manipulation
 
@@ -29,7 +29,7 @@ const books = [
 ];
 
 const titles = books.map((book) => book.title);
-// console.log(titles);
+console.log(titles);
 
 // 3. Task: Function Composition
 
@@ -51,7 +51,7 @@ const allInOne = (number) => {
   const doubled = double(squared);
   return add(doubled);
 };
-// console.log(allInOne(3));
+console.log(allInOne(3));
 
 // 4. Task: Sorting Objects
 
@@ -66,7 +66,7 @@ const cars = [
 ];
 
 const sortedCars = [...cars].sort((a, b) => a.year - b.year);
-// console.log(sortedCars);
+console.log(sortedCars);
 
 // 5. Task: Find and Modify
 
